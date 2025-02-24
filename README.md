@@ -1,4 +1,4 @@
-# EV Charging App
+# Plug Point (EV Charging App)
 
 A full-stack Flutter application to help users locate and explore electric vehicle charging stations. This project integrates Firebase Phone Authentication, uses Flutter Riverpod for state management, and implements Clean Architecture with an MVVM pattern. The app also features interactive maps powered by OpenStreetMap via the `flutter_map` package.
 
