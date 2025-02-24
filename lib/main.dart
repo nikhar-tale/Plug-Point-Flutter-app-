@@ -2,6 +2,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:plug_point/presentation/views/splash_screen.dart';
 import 'presentation/views/onboarding_screen.dart';
 // ignore: unused_import
 import 'utils/text_theme_extensions.dart'; // Import the extension
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         // Optionally, you can also define your textTheme here.
       ),
-      home: OnboardingScreen(),
+      home: const SplashScreen(), // Use SplashScreen as the initial route.
     );
   }
 }
